@@ -1,0 +1,36 @@
+body {
+    background-color: var(--color-cloud);
+    font-family: var(--font-lato);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter,
+.sort {
+    margin-bottom: 10px;
+}
+
+.transaction-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-list li {
+    margin-bottom: 5px;
+}
+
+.total-amount {
+    font-weight: bold;
+}
+
+.button {
+    background-color: var(--color-green);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
